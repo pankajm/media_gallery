@@ -1,0 +1,53 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.image-card {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.image {
+  width: 100%;
+}
+
+.tags {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: rgb(10, 124, 90);
+}
+
+.tag {
+  outline: none;
+  border: none;
+  color: #eee;
+  margin: 0px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination {
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: rgb(222, 235, 231);
+}
+
+.outlined {
+  color: "green";
+}
