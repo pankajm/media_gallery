@@ -1,4 +1,4 @@
-### Events scrapper frontend
+### Media scrapper frontend (Media Gallery)
 
 This project contains the front end code for media scrapper backend module which you can clone from https://github.com/pankajm/media_scraper.git
 
