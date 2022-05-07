@@ -39,7 +39,6 @@ const Dashboard = ({ mediaData }) => {
     const pageItems = paginate(filteredMediaData, page, 12);
     setCurrent(page);
     setFilteredImages(pageItems);
-    console.log(pageItems, page);
   };
 
   return (
